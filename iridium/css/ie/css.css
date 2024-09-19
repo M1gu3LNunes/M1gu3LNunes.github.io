@@ -1,0 +1,105 @@
+.html{
+
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+color: white;
+}
+.banner{
+    width: 100%;
+    margin: 0%;
+}
+.h1header{
+    font-size: 120px;    
+position: absolute;
+top: 1em;
+left:  5em;
+color: white;
+display: flex;
+justify-content: center;    
+}
+
+.h1border{
+
+position: absolute;
+    top: 25em;
+    justify-content: center;
+    display: flex;
+    left: 30em;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+.h1border a {
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+    border: gray 1px solid;
+    border-radius: 300px;
+    text-decoration: none;
+}
+
+.pee{
+    font-size: 30px;
+    position: absolute;
+    justify-content: center;
+    top: 17pc;
+    left: 800px;
+    color: gray;
+}
+
+h3{
+margin: 0px;
+font-size: 50px;
+}
+
+.imgh3{
+margin: 20px;
+}
+.secao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.postagem{
+
+width: 450px;
+
+}
+.cinza{
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.botao
+{
+    border: 3px orangered solid;
+    border-radius: 30px;
+    background-color: orangered;
+    color: white;
+    padding: 0.3em;
+    text-decoration: none;
+}
+footer{
+background-color: black;
+}
+.box-footer{
+    display: flex;
+    justify-content: center;
+
+
+}
+.box-footer a{
+color: white;
+text-decoration: none;
+display: flex;
+}
+.foot{
+
+display: flex;
+flex-direction: row;
+
+}
