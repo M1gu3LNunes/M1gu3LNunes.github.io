@@ -1,0 +1,145 @@
+html {
+    margin: 0;
+    background-color: rgb(0, 37, 51);
+    font-family: Tahoma, Verdana, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
+
+header {
+    margin: 30px 0;
+}
+
+header h1 {
+    color: white;
+    font-weight: normal;
+    display: inline;
+}
+
+mark {
+    mix-blend-mode: add;
+    background-color: rgb(0, 37, 51);
+    color: rgb(0, 171, 230);
+}
+
+header ul {
+    list-style: none;
+    position: absolute;
+    top: 25px;
+    left: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.first-element {
+    color: rgb(0, 108, 136);
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-branco {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.surf {
+    width: 100%;
+    height: 350px;
+}
+
+.text-img {
+    margin: 55px 400px 0 0px;
+    font-weight: normal;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+.text-img h1 {
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.text-img p {
+    width: 300px;
+}
+
+.meio {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card-azul {
+    padding: 15px;
+    height: 250px;
+    font-weight: normal;
+    color: white;
+    background-color: rgb(0, 114, 152);
+}
+
+.card-azul h1 {
+    font-size: 20px;
+}
+
+.card-azul button {
+    border: 2px solid rgb(0, 191, 255);
+    border-radius: 3px;
+    height: 30px;
+    color: white;
+    background-color: rgb(0, 191, 255);
+}
+
+.baixo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.baixo img {
+    width: 300px;
+}
+
+.baixo h3 {
+    font-size: 20px;
+}
+
+.bloco {
+    font-style: italic  ;
+    padding: 30px;
+    background-color: rgb(199, 241, 255);
+}
+
+.card-branco ul {
+    list-style: none;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    gap: 25px;
+}
+
+.card-branco a {
+}
+
+.mais-baixo {
+    width: 100%;
+    background-color: rgb(199, 241, 255);
+}
+
+footer {
+    color: white;
+}
